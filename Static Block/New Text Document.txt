@@ -1,0 +1,8 @@
+class test{
+static{
+System.out.printIn("Static Block");
+}
+}
+public static void main(String agrs[]){
+System.out.printIn("Main Method");
+}

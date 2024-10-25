@@ -1,0 +1,7 @@
+Class Noman{
+string data = "Noman";
+public static void maid(String args[])
+{
+lenght(data);
+}
+}

@@ -1,0 +1,48 @@
+class Student
+{
+ public string id;
+ public double name;
+ public double cgpa;
+ public string dept;
+ public static int totalCompleteCourse;
+ static
+ {
+  totalCompleteCourse=16;
+  System.out.println("I am first static block");
+  
+ }
+ 
+ static
+ {
+  System.out.println("I am second static block");
+  
+ }
+ 
+
+ Student()
+ {
+  System.out.println("I am a default constructor");
+ }
+
+ Student(String i, double n,double c,String d)
+ {
+  id=i;
+  name=n;
+  cgpa=c;
+  dept=d;
+  System.out.println("I am a parameterized constructor");
+ }
+
+
+ public void show_Info()
+ {
+  System.out.println("Name: "+name);
+  System.out.println("Cgpa: " +cgpa);
+  System.out.println("Id:" +id);
+  System.out.println("Dept:" +dept);
+  System.out.println("number of course: "+ totalCompleteCourse);
+
+ }
+
+
+}
